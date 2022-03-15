@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trello clone ui</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-nav">
+            <button class="btn logo">
+                <img src="img/Trello-Logo-2011-2016.png" alt="logo">
+            </button>
+            <button class="btn">Workspaces <ion-icon name="chevron-down-outline" class="btn-ico"></ion-icon></button>
+            <button class="btn">Recent <ion-icon name="chevron-down-outline" class="btn-ico"></ion-icon></button>
+            <button class="btn">Starred <ion-icon name="chevron-down-outline" class="btn-ico"></ion-icon></button>
+            <button class="btn">Templates <ion-icon name="chevron-down-outline" class="btn-ico"></ion-icon></button>
+            <button class="btn btn-gray create"> Create</button>
+            <input class="search" autocomplete="off" autocorrect="off" spellcheck="false" type="search"
+                placeholder="  Search…" value="">
+
+            <button class="btn">
+                <ion-icon name="information-circle-outline"></ion-icon>
+            </button>
+            <button class="btn">
+                <ion-icon name="notifications-outline"></ion-icon>
+            </button>
+            <div class="profile-img">
+                <p>PK</p>
+            </div>
+        </header>
+        <nav class="navigation">
+            <div class="project-title-div">
+                <div class="project-img">
+                    <p>R</p>
+                </div>
+                <div>
+                    <h2>Project title</h2>
+                    <p>Free</p>
+                </div>
+                <button class="btn">
+                    <ion-icon name="chevron-back-outline" class="icon-20"></ion-icon>
+                </button>
+            </div>
+            <ul class="nav-section">
+                <li class="nav-li">
+                    <ion-icon name="clipboard-outline"></ion-icon>Boards
+                </li>
+                <li class="nav-li">
+                    <ion-icon name="person-add-outline"></ion-icon>Members
+                </li>
+                <li class="nav-li">
+                    <ion-icon name="cog-outline"></ion-icon>Settings
+                </li>
+            </ul>
+            <h4>Workspace views </h4>
+            <ul class="nav-section">
+                <li class="nav-li">
+                    <ion-icon name="newspaper-outline"></ion-icon>
+                    Table
+                </li>
+                <li class="nav-li">
+                    <ion-icon name="calendar-outline"></ion-icon> Calendar
+                </li>
+
+            </ul>
+            <div class="flex">
+                <h4>Your bilbords</h4>
+                <button class="btn">
+                    <ion-icon name="add-outline" class="icon-18"></ion-icon>
+                </button>
+            </div>
+            <ul class="nav-section">
+                <li class="nav-li">
+                    <ion-icon name="stats-chart-outline"></ion-icon>
+                    Project Board Name
+                </li>
+            </ul>
+
+            <div class="nav-end-div">
+                <button class="premium-btn">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Try premium free
+                </button>
+            </div>
+        </nav>
+        <section class="main-section">
+            <header class="main-buttons">
+                <button class="btn btn-gray">
+                    <ion-icon name="stats-chart-outline" class="btn-ico-left"></ion-icon> Board <ion-icon
+                        name="chevron-down-outline" class="btn-ico">
+                    </ion-icon>
+                </button>
+                <button class="btn btn-gray  board-name-btn"> Project name example</button>
+                <button class="btn btn-gray">
+                    <ion-icon name="star-outline" class="icon-18"></ion-icon>
+                </button>
+                <div class="section">
+                </div>
+                <button class="btn btn-gray">
+                    Board name
+                </button>
+                <div class="section">
+                </div>
+                <button class="btn btn-gray">
+                    <ion-icon name="people-outline" class="btn-ico-left"></ion-icon>
+                    Workspace visible
+                </button>
+                <div class="section">
+                </div>
+                <div class="profile-img">
+                    <p>PK</p>
+                </div>
+                <button class="btn btn-white">
+                    <ion-icon name="person-add-outline" class="btn-ico-left"></ion-icon>
+                    Invite
+                </button>
+                <button class="btn btn-gray">
+                    <ion-icon name="rocket-outline" class="btn-ico-left"></ion-icon>
+                    Power-ups
+                </button>
+                <button class="btn btn-gray">
+                    <ion-icon name="flash-outline" class="btn-ico-left"></ion-icon>
+                    Automaton
+                </button>
+                <div class="section">
+                </div>
+                <button class="btn btn-gray">
+                    <ion-icon name="filter-outline" class="btn-ico-left"></ion-icon>
+                    Filter
+                </button>
+                <button class="btn btn-gray">
+                    <ion-icon name="ellipsis-horizontal-outline" class="btn-ico-left"></ion-icon>
+                    Show menu
+                </button>
+            </header>
+            <section class="main-content">
+                <div class="list-card">
+                    <header class="card-header">
+                        Open <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </header>
+                    <div class="card-item">
+                        <div class="labels-div">
+                            <div class="label-item red"></div>
+                            <div class="label-item green"></div>
+                            <div class="label-item yellow"></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-item">
+                        <div class="labels-div">
+                            <div class="label-item red"></div>
+                            <div class="label-item green"></div>
+                            <div class="label-item yellow"></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-item">
+                        <div class="labels-div">
+                            <div class="label-item red"></div>
+                            <div class="label-item green"></div>
+                            <div class="label-item yellow"></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-item">
+                        <div class="labels-div">
+                            <div class="label-item red"></div>
+                            <div class="label-item green"></div>
+                            <div class="label-item yellow"></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-item">
+                        <div class="labels-div">
+                            <div class="label-item red"></div>
+                            <div class="label-item green"></div>
+                            <div class="label-item yellow"></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-item">
+                        <div class="labels-div">
+                            <div class="label-item red"></div>
+                            <div class="label-item green"></div>
+                            <div class="label-item yellow"></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-bottom">
+                        <button class="btn wide-btn">
+                            <ion-icon name="add-outline" class="btn-ico-left"></ion-icon> Add a card
+                        </button>
+                        <button class="btn">
+                            <ion-icon name="bookmarks-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="list-card">
+                    <header class="card-header">
+                        In progress <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </header>
+                    <div class="card-item">
+                        <div class="labels-div">
+                            <div class="label-item red"></div>
+                            <div class="label-item yellow"></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-item">
+                        <div class="labels-div">
+                            <div class="label-item red"></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-item">
+                        <div class="labels-div">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-bottom">
+                        <button class="btn wide-btn">
+                            <ion-icon name="add-outline" class="btn-ico-left"></ion-icon> Add a card
+                        </button>
+                        <button class="btn">
+                            <ion-icon name="bookmarks-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="list-card">
+                    <header class="card-header">
+                        In prewiew <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </header>
+                    <div class="card-item">
+                        <div class="labels-div">
+                            <div class="label-item red"></div>
+                            <div class="label-item green"></div>
+                            <div class="label-item yellow"></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam debitis praesentium
+                            quod
+                            est quibusdam nemo eveniet?
+                        </p>
+                    </div>
+                    <div class="card-bottom">
+                        <button class="btn wide-btn">
+                            <ion-icon name="add-outline" class="btn-ico-left"></ion-icon> Add a card
+                        </button>
+                        <button class="btn">
+                            <ion-icon name="bookmarks-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="list-card">
+                    <header class="card-header">
+                        In prewiew <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </header>
+                    <div class="card-bottom">
+                        <button class="btn wide-btn">
+                            <ion-icon name="add-outline" class="btn-ico-left"></ion-icon> Add a card
+                        </button>
+                        <button class="btn">
+                            <ion-icon name="bookmarks-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="list-card">
+                    <header class="card-header">
+                        Bug repport <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </header>
+                    <div class="card-bottom">
+                        <button class="btn wide-btn">
+                            <ion-icon name="add-outline" class="btn-ico-left"></ion-icon> Add a card
+                        </button>
+                        <button class="btn">
+                            <ion-icon name="bookmarks-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="list-card">
+                    <header class="card-header">
+                        Closed <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </header>
+                    <div class="card-bottom">
+                        <button class="btn wide-btn">
+                            <ion-icon name="add-outline" class="btn-ico-left"></ion-icon> Add a card
+                        </button>
+                        <button class="btn">
+                            <ion-icon name="bookmarks-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <button class="btn btn-gray add-list-btn">
+                    <ion-icon name="add-outline" class="btn-ico-left"></ion-icon>
+                    Add another list
+                </button>
+            </section>
+        </section>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
